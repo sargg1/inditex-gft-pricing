@@ -1,0 +1,8 @@
+services:
+  pricing-service:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      DATASOURCE_USERNAME: "inditex"
+      DATASOURCE_PASSWORD: "gft"

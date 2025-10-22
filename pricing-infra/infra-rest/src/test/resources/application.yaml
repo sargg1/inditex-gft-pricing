@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:pricingdb;DB_CLOSE_DELAY=-1
+    username: ${SPRING_DATASOURCE_USERNAME:inditex}
+    password: ${SPRING_DATASOURCE_PASSWORD:gft}
+  jpa:
+    hibernate:
+      ddl-auto: none
+    defer-datasource-initialization: true

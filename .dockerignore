@@ -1,0 +1,9 @@
+target
+**/target
+.git
+.gitignore
+README.md
+Dockerfile
+mvnw
+mvnw.cmd
+**/*.iml
